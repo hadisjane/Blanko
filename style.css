@@ -255,3 +255,38 @@ button {
 .druk__box:last-child {
 	background-color: rgba(255, 255, 255, 0.4);
 }
+
+.section-landing__title {
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 26px;
+}
+
+.landing {
+	position: relative;
+	margin: 0 auto;
+	width: 1280px;	
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.landing__cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 26px;
+}
+
+.landing-img {
+	background-color: #000;
+	border-radius: 5px 5px 0 0;
+	padding: 30px 30px 0 30px;
+}
+
+.section-landing__card {
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	border-radius: 6px;
+}
+
+.landing__card_title {
+	padding: 25px 32px;
+}
