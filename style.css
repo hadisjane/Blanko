@@ -161,3 +161,44 @@ button {
 .section-info__btn:last-child:hover {
 	background-color: #f2f2f2;
 }
+
+.features {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.features-info {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.features-info__content {
+	display: flex;
+  	flex-direction: column;
+	align-items: flex-start;
+}
+
+.features-info__box {
+	position: relative;
+	margin: 80px 0;
+	width: 100px;
+	height: 100px;
+	background-color: #FDE7DA;
+}
+
+.features-info__img {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 26px;
+	top: 26px;
+}
+
+.features-info__title {
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 13px;
+}
+
