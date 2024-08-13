@@ -202,3 +202,56 @@ button {
 	margin-bottom: 13px;
 }
 
+#section-druk {
+	background: #000;
+	color: #fff;
+}
+
+.druk {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.druk-logo {
+	width: 100px;
+	height: 20px;
+	margin: 100px 0 39px;
+}
+
+.section-druk__subtitle {
+	text-align: center;
+	width: 576px;
+	height: 192px;
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 41px;
+}
+
+.druk-info__title {
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+}
+
+.druk-info__subtitle {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.druk__boxes {
+	display: flex;
+	gap: 6px;
+	margin: 30px 0 114px;
+}
+
+.druk__box {
+	background-color: #fff;
+	width: 16px;
+	height: 16px;
+	transition: .4s;
+}
+
+.druk__box:last-child {
+	background-color: rgba(255, 255, 255, 0.4);
+}
